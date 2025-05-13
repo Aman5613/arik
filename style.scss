@@ -80,19 +80,12 @@ main {
         overflow: hidden;
         width: 100%;
         display: flex;
-
-
         &::after {
             height: 110%;
             width: 100%;
             position: absolute;
-            // top: 0;
-            // right: 0;
             background-image: linear-gradient(to right, #0e0e0e, transparent, #0e0e0e);
         }
-        
-        
-
         .text {
             display: flex;
             gap: 5rem;
@@ -100,7 +93,6 @@ main {
             padding: 0 2.5rem;
             animation: marquee 10s linear infinite;
         }
-
     }
 }
 
